@@ -1,0 +1,99 @@
+*{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FEFFFF;
+}
+.label {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.input-field{
+    letter-spacing: 0.3em;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom:  1px solid #9DBEBB;
+    background-color: #BE0909;
+    text-decoration-color: #FEFFFF;
+    
+}
+.input-field::placeholder {
+	letter-spacing: 0.3em;
+    color: #FEFFFF;
+}
+.large-input{
+    width: 400px;
+}
+.small-input{
+    width: 160px;
+}
+.txt-area-field{
+    letter-spacing: 0.3em;
+    color: #FEFFFF;
+}
+body {
+    background: #9DBEBB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper {
+    margin-top: 150px;
+    width: 954px;
+    height: 594px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-red {
+    width: 65%;
+    height: 100%;
+    background: #BE0909;
+    align-self: flex-start;
+}
+.form-yellow{
+    width: 35%;
+    height: 100%;
+    background: #FFB039;
+    display: flex;
+    align-self: flex-end;
+}
+.duck-position{
+    margin-top: 180px;
+    margin-left: 420px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    row-gap: 22px;
+    width: 75%;
+}
+.form-aligner{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.btn{
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    width: 202px;
+    height: 48px;
+    align-self: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
